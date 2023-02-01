@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FoodLover:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FoodLover</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FoodLover-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FoodLover:war exploded" />
+    </root>
+  </artifact>
+</component>
