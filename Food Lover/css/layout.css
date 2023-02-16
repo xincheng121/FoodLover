@@ -1,0 +1,20 @@
+body{
+	background-color: rgb(31,22,14);
+	background-image: url(../images/body_bg.jpg);
+	background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'nebulouscontent';
+    src: url('../fonts/nebulouscontent-webfont.eot');
+    src: url('../fonts/nebulouscontent-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nebulouscontent-webfont.woff') format('woff'),
+         url('../fonts/nebulouscontent-webfont.ttf') format('truetype'),
+         url('../fonts/nebulouscontent-webfont.svg#nebulous_contentregular') format('svg');
+}
+
+@font-face{
+	font-family: nobile;
+	src:url('../fonts/nobile-webfont.eot'),
+		url('../fonts/nobile-webfont.ttf');
+}
