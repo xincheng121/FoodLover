@@ -1,0 +1,102 @@
+body{
+	/* background-color: rgb(11, 15, 25); */ /* dark */
+	/* background-color: rgb(31,22,14); */ /* brown */
+	background-color: rgb(36,15,0); /* warm */
+}
+
+@font-face {
+    font-family: 'nebulouscontent';
+    src: url('../fonts/nebulouscontent-webfont.eot');
+    src: url('../fonts/nebulouscontent-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nebulouscontent-webfont.woff') format('woff'),
+         url('../fonts/nebulouscontent-webfont.ttf') format('truetype'),
+         url('../fonts/nebulouscontent-webfont.svg#nebulous_contentregular') format('svg');
+}
+
+@font-face{
+	font-family: nobile;
+	src:url('../fonts/nobile-webfont.eot'),
+		url('../fonts/nobile-webfont.ttf');
+}
+
+/* Food Lover's Homepage */
+header h1{
+	position: fixed;
+	top: 5%;
+	left: 9%;
+	font-family: 'nebulouscontent';
+	color: white;
+	font-size: 300%;
+}
+
+/* Food Lover's Homepage's background */
+header img.bg{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+/* Food Lover's Homepage's block's symbol */
+header img.symbol{
+    height: 60px;
+    position: fixed;
+    left: 42%;
+    top: 8%;
+}
+
+/* Food Lover's Homepage's block's border */
+hr.upper_title{
+    height: 1px;
+	width: 96%;
+	background: rgb(251, 251, 253);
+	border: none;
+	position: fixed;
+	top: 4%;
+	left: 2%;
+}
+
+hr.lower_title{
+    height: 1px;
+	width: 96%;
+	background: rgb(251, 251, 253);
+	border: none;
+	position: fixed;
+	top: 16%;
+	left: 2%;
+}
+
+/* Navigation */
+nav{
+	font-family: 'nebulouscontent';
+	font-size: 160%;
+	position: fixed;
+	top: 28%;
+	left: 3%;
+	background-attachment: fixed
+}
+
+nav a:link, nav a:visited{
+	color: rgb(251, 251, 253);
+	text-decoration:none;
+}
+
+nav a:hover{
+	color: rgb(215, 181, 151);
+}
+
+li.Asia{
+	list-style-image: url('../images/icon_1_12.png');
+}
+
+li.NA{
+	list-style-image: url('../images/icon_2_12.png');
+}
+
+li.Nav_3{
+	list-style-image: url('../images/icon_3_12.png');
+}
+
+li.Nav_4{
+	list-style-image: url('../images/icon_4_12.png');
+}

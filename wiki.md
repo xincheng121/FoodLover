@@ -25,4 +25,5 @@ With our website, we aim to create a diversified food community platform where y
 
 
 ##  mini-goals
-###### for backend: use postman to test user signup, login, logout and pass them, 
+###### for backend: use postman to test user signup, login, logout and pass them, use google cloud or Amazon create database and connect those
+###### for frontend: finish pages related to recipes classified by areas
