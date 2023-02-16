@@ -1,5 +1,3 @@
-# FoodLover
-##### A `website` can help people cook different
 ## team member:
 #### Xincheng Dong <br>Yuepeng Liu
 ## Introduction:
@@ -15,6 +13,15 @@ With our website, we aim to create a diversified food community platform where y
 
 ## technologies 
 #### Java Java mvc spring html css js etc.
+#### Hibernate
+
+##### Javax.persistence.Entity，
+##### Javax.persistence.Table
+##### Javax.persistence.Id
+##### Javax.persistence.Column
+##### Javax.persistence.OneToOne
+
 
 ##  mini-goals
-###### upload first recipe
+###### for backend: use postman to test user signup, login, logout and pass them, use google cloud or Amazon create database and connect those
+###### for frontend: finish pages related to recipes classified by areas
