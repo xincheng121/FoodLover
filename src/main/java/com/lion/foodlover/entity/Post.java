@@ -10,8 +10,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "post")
-public class Post implements Serializable {
+@Table(name = "posts")
+public class Post implements Serializable{
+
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -31,8 +32,12 @@ public class Post implements Serializable {
     @OneToOne(cascade = CascadeType.ALL)
     private Order order;
 
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, fetch=FetchType.EAGER)
+    private Set<Media> medias;
 
-
+    @ManyToOne
+    @JsonIgnoreProperties({"postList", "purchaseHistory", "sellingHistory", "password"})
+    private User owner;
 
     @ManyToMany
     @JoinTable(
@@ -41,7 +46,7 @@ public class Post implements Serializable {
             inverseJoinColumns = @JoinColumn(name = "tag_id")
     )
     @JsonIgnore
-
+    private Set<Tag> appendTags = new HashSet<>();
 
     public int getId() {
         return id;
@@ -95,6 +100,13 @@ public class Post implements Serializable {
         return order;
     }
 
+    public Set<Media> getMedias() {
+        return medias;
+    }
+
+    public void setMedias(Set<Media> medias) {
+        this.medias = medias;
+    }
 
     public Set<Tag> getAppendTags() {
         return appendTags;
@@ -108,5 +120,12 @@ public class Post implements Serializable {
         this.order = order;
     }
 
+    public User getOwner() {
+        return owner;
+    }
+
+    public void setOwner(User owner) {
+        this.owner = owner;
+    }
 
 }
