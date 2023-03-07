@@ -21,17 +21,18 @@ body{
 
 /* Food Lover's Homepage */
 header h1{
-	position: fixed;
-	top: 5%;
-	left: 9%;
-	font-family: 'nebulouscontent';
-	color: white;
+	position: absolute;
+	top: 32px;
+	left: 172.8px;
+	font-family: nobile;
+	color: rgb(251, 251, 253);
 	font-size: 300%;
+	white-space: nowrap;
 }
 
 /* Food Lover's Homepage's background */
 header img.bg{
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 0%;
     z-index: -1;
@@ -40,9 +41,9 @@ header img.bg{
 /* Food Lover's Homepage's block's symbol */
 header img.symbol{
     height: 60px;
-    position: fixed;
-    left: 42%;
-    top: 8%;
+    position: absolute;
+    left: 806.4px;
+    top: 72px;
 }
 
 /* Food Lover's Homepage's block's border */
@@ -51,7 +52,7 @@ hr.upper_title{
 	width: 96%;
 	background: rgb(251, 251, 253);
 	border: none;
-	position: fixed;
+	position: absolute;
 	top: 4%;
 	left: 2%;
 }
@@ -61,19 +62,20 @@ hr.lower_title{
 	width: 96%;
 	background: rgb(251, 251, 253);
 	border: none;
-	position: fixed;
+	position: absolute;
 	top: 16%;
 	left: 2%;
 }
 
 /* Navigation */
 nav{
-	font-family: 'nebulouscontent';
+	font-family: nobile;
 	font-size: 160%;
-	position: fixed;
+	position: absolute;
 	top: 28%;
 	left: 3%;
-	background-attachment: fixed
+	/* random width */
+	width: 360px;
 }
 
 nav a:link, nav a:visited{
@@ -100,3 +102,136 @@ li.Nav_3{
 li.Nav_4{
 	list-style-image: url('../images/icon_4_12.png');
 }
+
+div.line{
+    width: 2px;
+    height: 100%;
+    background: rgb(251, 251, 253);
+    position: absolute;
+    top: 28%;
+    left: 17%;
+}
+
+/* asia */
+h2.asia{
+    font-family: 'nebulouscontent';
+    color: rgb(251, 251, 253);
+    position: absolute;
+    left: 360px;
+    top: 200px;
+    font-size: 600%;
+    white-space: nowrap;
+}
+
+img.asia{
+    height: 216px;
+    width: 384px;
+    position: absolute;
+    left: 360px;
+    top: 480px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    color: rgb(251, 251, 253);
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+img.asia_recipes{
+    position:absolute;
+    height: 220.2px;
+    width: 330px;
+    border: 2px solid;
+	padding: 3px 3px 3px 3px;
+	color: rgb(251, 251, 253);
+	object-fit: cover;
+}
+
+img.asia_1{
+    left: 900px;
+    top: 405px;
+}
+
+img.asia_2{
+    left: 1275px;
+    top: 405px;
+}
+
+img.asia_3{
+    left: 900px;
+    top: 660px;
+}
+
+img.asia_4{
+    left: 1275px;
+    top: 660px;
+}
+
+div.overlay{
+	position: absolute;
+	height: 220.2px;
+	width: 330px;
+	background: #222;
+	opacity: 0;
+	transition: opacity 0.4s ease-in-out;
+}
+
+div.overlay:hover{
+	opacity: 0.7;
+}
+
+div.overlay_1{
+    left: 905px;
+    top: 410px;
+}
+
+div.overlay_2{
+    left: 1280px;
+    top: 410px;
+}
+
+div.overlay_3{
+    left: 905px;
+    top: 665px;
+}
+
+div.overlay_4{
+    left: 1280px;
+    top: 665px;
+}
+
+p.a_asia{
+	font-family: 'nebulouscontent';
+	color: rgb(251, 251, 253);
+	font-size: 180%;
+}
+
+div.text{
+    display: flex;
+    justify-content: center;
+    margin: 73px auto;
+}
+/*
+div.text_1{
+    position: absolute;
+    left: 91px;
+    top: 73px;
+}
+
+div.text_2{
+    position: absolute;
+    left: 91px;
+    top: 73px;
+}
+
+div.text_3{
+    position: absolute;
+    left: 91px;
+    top: 73px;
+}
+
+div.text_4{
+    display: flex;
+    justify-content: center;
+    margin: 73px auto;
+}
+*/
