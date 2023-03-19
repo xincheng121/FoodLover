@@ -1,0 +1,97 @@
+body{
+	/* background-color: rgb(11, 15, 25); */ /* dark */
+	/* background-color: rgb(31,22,14); */ /* brown */
+	background-color: rgb(36,15,0); /* warm */
+}
+
+@font-face {
+    font-family: 'nebulouscontent';
+    src: url('../fonts/nebulouscontent-webfont.eot');
+    src: url('../fonts/nebulouscontent-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nebulouscontent-webfont.woff') format('woff'),
+         url('../fonts/nebulouscontent-webfont.ttf') format('truetype'),
+         url('../fonts/nebulouscontent-webfont.svg#nebulous_contentregular') format('svg');
+}
+
+@font-face{
+	font-family: nobile;
+	src:url('../fonts/nobile-webfont.eot'),
+		url('../fonts/nobile-webfont.ttf');
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Food Lover's Homepage's background */
+header img.bg{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+/* Food Lover's Homepage's block's symbol */
+header img.symbol{
+    height: 600px;
+    position: absolute;
+    left: 160px;
+    top: -200px;
+}
+
+/* Food Lover's Homepage's block's border */
+hr.lower_title{
+    height: 1px;
+	width: 96%;
+	background: rgb(251, 251, 253);
+	border: none;
+	position: absolute;
+	top: 16%;
+	left: 2%;
+}
+
+/* Navigation */
+nav{
+	font-family: 'nebulouscontent';
+	font-size: 120%;
+	background-color: rgb(251, 251, 253);
+	padding-top: 8px;
+	padding-left: 10px;
+	padding-right: 8px;
+	position: absolute;
+	top: 156px;
+	left: 1500px;
+}
+
+nav a:link, nav a:visited{
+	color: black;
+	text-decoration:none;
+}
+
+nav a:hover{
+	color: rgb(215, 181, 151);
+}
+
+li.Homepage{
+	list-style-image: url('../images/Homepage.png');
+}
+
+li.Nav_1{
+	list-style-image: url('../images/Homepage.png');
+}
+
+li.Nav_2{
+	list-style-image: url('../images/Homepage.png');
+}
+
+li.Nav_3{
+	list-style-image: url('../images/Homepage.png');
+}
+
+li.Nav_4{
+	list-style-image: url('../images/Homepage.png');
+}
+
+li.space{
+	list-style: none;
+}

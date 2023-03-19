@@ -1,24 +1,3 @@
-body{
-	/* background-color: rgb(11, 15, 25); */ /* dark */
-	/* background-color: rgb(31,22,14); */ /* brown */
-	background-color: rgb(36,15,0); /* warm */
-}
-
-@font-face {
-    font-family: 'nebulouscontent';
-    src: url('../fonts/nebulouscontent-webfont.eot');
-    src: url('../fonts/nebulouscontent-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/nebulouscontent-webfont.woff') format('woff'),
-         url('../fonts/nebulouscontent-webfont.ttf') format('truetype'),
-         url('../fonts/nebulouscontent-webfont.svg#nebulous_contentregular') format('svg');
-}
-
-@font-face{
-	font-family: nobile;
-	src:url('../fonts/nobile-webfont.eot'),
-		url('../fonts/nobile-webfont.ttf');
-}
-
 /* Food Lover's Homepage */
 header h1{
 	position: absolute;
@@ -28,22 +7,6 @@ header h1{
 	color: rgb(251, 251, 253);
 	font-size: 300%;
 	white-space: nowrap;
-}
-
-/* Food Lover's Homepage's background */
-header img.bg{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: -1;
-}
-
-/* Food Lover's Homepage's block's symbol */
-header img.symbol{
-    height: 60px;
-    position: absolute;
-    left: 806.4px;
-    top: 72px;
 }
 
 /* Food Lover's Homepage's block's border */
@@ -57,24 +20,15 @@ hr.upper_title{
 	left: 2%;
 }
 
-hr.lower_title{
-    height: 1px;
-	width: 96%;
-	background: rgb(251, 251, 253);
-	border: none;
-	position: absolute;
-	top: 16%;
-	left: 2%;
-}
-
 /* Navigation */
+/*
 nav{
 	font-family: nobile;
 	font-size: 160%;
 	position: absolute;
 	top: 28%;
 	left: 3%;
-	/* random width */
+	/* random width *//*
 	width: 360px;
 }
 
@@ -111,6 +65,7 @@ div.line{
     top: 28%;
     left: 17%;
 }
+*/
 
 /* asia */
 h2.asia{
@@ -147,23 +102,33 @@ img.asia_recipes{
 }
 
 img.asia_1{
-    left: 900px;
-    top: 405px;
+    left: 360px;
+    top: 450px;
 }
 
 img.asia_2{
-    left: 1275px;
-    top: 405px;
+    left: 735px;
+    top: 450px;
 }
 
 img.asia_3{
-    left: 900px;
-    top: 660px;
+    left: 1110px;
+    top: 450px;
 }
 
 img.asia_4{
-    left: 1275px;
-    top: 660px;
+    left: 360px;
+    top: 705px;
+}
+
+img.asia_5{
+    left: 735px;
+    top: 705px;
+}
+
+img.asia_6{
+    left: 1110px;
+    top: 705px;
 }
 
 div.overlay{
@@ -180,23 +145,33 @@ div.overlay:hover{
 }
 
 div.overlay_1{
-    left: 905px;
-    top: 410px;
+    left: 365px;
+    top: 455px;
 }
 
 div.overlay_2{
-    left: 1280px;
-    top: 410px;
+    left: 740px;
+    top: 455px;
 }
 
 div.overlay_3{
-    left: 905px;
-    top: 665px;
+    left: 1115px;
+    top: 455px;
 }
 
 div.overlay_4{
-    left: 1280px;
-    top: 665px;
+    left: 365px;
+    top: 710px;
+}
+
+div.overlay_5{
+    left: 740px;
+    top: 710px;
+}
+
+div.overlay_6{
+    left: 1115px;
+    top: 710px;
 }
 
 p.a_asia{
@@ -235,3 +210,123 @@ div.text_4{
     margin: 73px auto;
 }
 */
+
+/* Brush Stroke */
+
+img.line_1{
+    position: absolute;
+    top: 1000px;
+    left: 660px;
+}
+
+/* Seasonal Ingredients */
+
+h2.ingredients{
+    position: absolute;
+    top: 1160px;
+    left: 700px;
+    font-family: 'nebulouscontent';
+	color: rgb(251, 251, 253);
+	font-size: 270%;
+}
+
+/* Table */
+
+table{
+    background: rgb(251, 251, 253);
+    font-family: 'nebulouscontent';
+    position: absolute;
+    top: 1400px;
+    left: 430px;
+}
+
+td{
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    font-size: 120%;
+}
+
+/* Form */
+
+.form_control{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	border: 2px solid rgb(192,249,255);
+	transition: all 0.4s ease-in-out;
+}
+
+.form_control:hover {
+  border-color: rgb(62,96,111);
+}
+
+/* Name */
+
+div.fst{
+    position: absolute;
+    top: 1730px;
+    left: 680px;
+}
+
+/* Email */
+
+div.sec{
+	position: absolute;
+	top: 1730px;
+	left: 360px;
+}
+
+/* Telephone */
+
+div.trd{
+	position: absolute;
+	top: 1806px;
+	left: 680px;
+}
+
+/* From Where*/
+
+div.fth{
+	position: absolute;
+	top: 1806px;
+	left: 360px;
+}
+
+select{
+	height: 53px;
+	width: 286px;
+}
+
+/* Leave your message here */
+
+textarea{
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	top: 1954px;
+	left: 360px;
+}
+
+/* Send Message*/
+
+div.button{
+    position: absolute;
+    top: 2180px;
+    left:360px;
+}
+
+input{
+	height: 50px;
+	width: 280px;
+}
+
+input[type="submit"]{
+	width: 200px;
+	border-radius: 100px;
+	transition: all 0.4s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  color: rgb(62,96,111);
+}
