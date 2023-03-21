@@ -68,6 +68,7 @@ div.line{
 */
 
 /* asia */
+/*
 h2.asia{
     font-family: 'nebulouscontent';
     color: rgb(251, 251, 253);
@@ -90,6 +91,7 @@ img.asia{
     padding-right: 2px;
     padding-bottom: 2px;
 }
+*/
 
 img.asia_recipes{
     position:absolute;
@@ -104,21 +106,25 @@ img.asia_recipes{
 img.asia_1{
     left: 360px;
     top: 450px;
+    color: #F2C48D;
 }
 
 img.asia_2{
     left: 735px;
     top: 450px;
+    color: #b4aa99;
 }
 
 img.asia_3{
     left: 1110px;
     top: 450px;
+    color: #e17144;
 }
 
 img.asia_4{
     left: 360px;
     top: 705px;
+    color: #F5A769;
 }
 
 img.asia_5{
@@ -129,13 +135,13 @@ img.asia_5{
 img.asia_6{
     left: 1110px;
     top: 705px;
+    color: #83A672;
 }
 
 div.overlay{
 	position: absolute;
 	height: 220.2px;
 	width: 330px;
-	background: #222;
 	opacity: 0;
 	transition: opacity 0.4s ease-in-out;
 }
@@ -145,11 +151,13 @@ div.overlay:hover{
 }
 
 div.overlay_1{
+    background: #F2C48D;
     left: 365px;
     top: 455px;
 }
 
 div.overlay_2{
+    background: #b4aa99;
     left: 740px;
     top: 455px;
 }
@@ -157,27 +165,39 @@ div.overlay_2{
 div.overlay_3{
     left: 1115px;
     top: 455px;
+    background: #e17144;
 }
 
 div.overlay_4{
     left: 365px;
     top: 710px;
+    background: #F5A769;
 }
 
 div.overlay_5{
     left: 740px;
     top: 710px;
+    background: #260101;
 }
 
 div.overlay_6{
     left: 1115px;
     top: 710px;
+    background: #83A672;
 }
 
 p.a_asia{
 	font-family: 'nebulouscontent';
 	color: rgb(251, 251, 253);
 	font-size: 180%;
+}
+
+p.a_asia_2{
+    color: #1D1D1F;
+}
+
+p.a_Braised_Eggplant{
+    color: #731702;
 }
 
 div.text{
@@ -238,6 +258,8 @@ table{
     position: absolute;
     top: 1400px;
     left: 430px;
+    width: 960px;
+    height: 240px;
 }
 
 td{
@@ -245,6 +267,14 @@ td{
     height: 80px;
     text-align: center;
     font-size: 120%;
+}
+
+a.table{
+    color: #ff9a84;
+}
+
+a.table:visited{
+    color: #84c9ff;
 }
 
 /* Form */

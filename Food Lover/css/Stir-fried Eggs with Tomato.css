@@ -1,0 +1,37 @@
+h2{
+    font-family: 'nebulouscontent';
+    font-size: 280%;
+    position: absolute;
+    top: 215px;
+    left: 590px;
+}
+
+img.title{
+    height: 220.2px;
+    width: 330px;
+    object-fit: cover;
+    border: 2px solid;
+	padding: 3px 3px 3px 3px;
+	color: #F5A769;
+	position: absolute;
+	top: 380px;
+	left: 735px;
+}
+
+p{
+    font-family: nobile;
+    font-size: 110%;
+    position: absolute;
+    top: 640px;
+    left: 560px;
+}
+
+/* Layout Above */
+
+h2{
+    color: #F5A769;
+}
+
+p{
+    color: #F5A769;
+}
