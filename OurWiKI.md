@@ -17,5 +17,6 @@ With our website, we aim to create a diversified food community platform where y
 #### Java Java mvc spring html css js react etc springframework spring-security jsonwebtoken mysql hibernate jackson jupiter servlet
 
 ##  mini-goals
-###### for backend: connect frontend using docker
-###### for frontend: use backend data to test website
+###### for backend: debug and connect both bn and fn
+###### for frontend: add some static Component on fn
+
