@@ -15,8 +15,3 @@ With our website, we aim to create a diversified food community platform where y
 *  user can search their 
 ## technologies 
 #### Java Java mvc spring html css js react etc springframework spring-security jsonwebtoken mysql hibernate jackson jupiter servlet
-
-##  mini-goals
-###### for backend: debug and connect both bn and fn
-###### for frontend: add some static Component on fn
-
