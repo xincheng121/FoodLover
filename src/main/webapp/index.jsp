@@ -8,5 +8,6 @@
 <h1>
     <%= "Welcome to the backend of FoodLover!!!" %>
 </h1>
+<a href="hello-foodlover">Food Lover</a>
 </body>
 </html>
